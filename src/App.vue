@@ -1,6 +1,18 @@
 <template>
-  <router-view />
+  <app-layout>
+    <router-view />
+  </app-layout>
 </template>
+
+<script>
+import AppLayout from "./components/Layouts/AppLayout.vue";
+
+export default {
+  components: {
+    AppLayout,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
