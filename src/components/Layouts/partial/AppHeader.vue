@@ -25,17 +25,17 @@
                 <p>(090) 123-456</p>
               </div>
               <div class="header_middle_icons">
-                <div class="header_middle_wishlist">
+                <div class="header_middle_icons_wishlist">
                   <HeartIcon />
 
                   <span>wishlist</span>
                 </div>
-                <div class="header_middle_login">
+                <div class="header_middle_icons_login">
                   <LogInIcon />
                   <span>SignIn</span>
                 </div>
 
-                <div class="header_middle_cart" @click="openCart">
+                <div class="header_middle_icons_cart" @click="openCart">
                   <CartIcon />
                   <p class="badge">22</p>
                   <span>Cart</span>
@@ -199,17 +199,17 @@ export default {
     > div:not(:last-child) {
       margin-right: 30px;
     }
-    &_cart {
-      position: relative;
-      .badge {
-        background: black;
-        border-radius: 50%;
-        text-align: center;
-        top: -8px;
-        position: absolute;
-        right: -11px;
-        padding: 0 4px;
-      }
+  }
+  &_icons_cart {
+    position: relative;
+    .badge {
+      background: blue;
+      border-radius: 50%;
+      text-align: center;
+      top: -8px;
+      position: absolute;
+      right: -11px;
+      padding: 0 4px;
     }
   }
 }

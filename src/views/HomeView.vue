@@ -1,14 +1,14 @@
 <template>
-  <div class="home">this is ho;wmpage</div>
-  <!-- <h1>this is ho;em page</h1>
-
-  <v-icon> mdi-home-alert</v-icon> -->
+  <UpperBanner />
 </template>
 
 <script>
-// @ is an alias to /src
+import UpperBanner from "@/components/Home/UpperBanner.vue";
 
 export default {
   name: "HomeView",
+  components: {
+    UpperBanner,
+  },
 };
 </script>

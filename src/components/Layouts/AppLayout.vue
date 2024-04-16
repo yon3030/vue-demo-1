@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <AppNavigations />
+    <AppNavigation />
     <Header />
     <v-main>
       <slot></slot>
@@ -12,7 +12,7 @@
 <script>
 import Header from "@/components/Layouts/partial/AppHeader.vue";
 import AppFooter from "@/components/Layouts/partial/AppFooter.vue";
-import AppNavigations from "@/components/Layouts/partial/AppNavigations.vue";
+import AppNavigation from "@/components/Layouts/partial/AppNavigations.vue";
 export default {
   name: "AppLayout",
   data() {
@@ -20,8 +20,14 @@ export default {
   },
   components: {
     Header,
-    AppNavigations,
+    AppNavigation,
     AppFooter,
   },
 };
 </script>
+
+<style lang="scss">
+.v-main {
+  padding-top: 150px !important;
+}
+</style>
