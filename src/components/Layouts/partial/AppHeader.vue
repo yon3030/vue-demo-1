@@ -97,13 +97,13 @@
   </v-app-bar>
 </template>
 <script>
-import HeartIcon from "@/svg/HeartIcon.vue";
-import LogInIcon from "@/svg/LogInIcon.vue";
-import CartIcon from "@/svg/CartIcon.vue";
-import HelpIcon from "@/svg/HelpIcon.vue";
-import LangIcon from "@/svg/LangIcon.vue";
-import DeLangIcon from "@/svg/DeLangIcon.vue";
-import SearchIcon from "@/svg/SearchIcon.vue";
+import HeartIcon from "@/svg/HeaderIcons/HeartIcon.vue";
+import LogInIcon from "@/svg/HeaderIcons/LogInIcon.vue";
+import CartIcon from "@/svg/HeaderIcons/CartIcon.vue";
+import HelpIcon from "@/svg/HeaderIcons/HelpIcon.vue";
+import LangIcon from "@/svg/HeaderIcons/LangIcon.vue";
+import DeLangIcon from "@/svg/HeaderIcons/DeLangIcon.vue";
+import SearchIcon from "@/svg/HeaderIcons/SearchIcon.vue";
 import { markRaw } from "vue";
 export default {
   name: " HeaderSection ",
