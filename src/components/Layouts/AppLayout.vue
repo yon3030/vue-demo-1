@@ -1,7 +1,7 @@
 <template>
   <v-layout>
     <AppNavigations />
-    <AppNavBar />
+    <Header />
     <v-main>
       <slot></slot>
     </v-main>
@@ -10,18 +10,16 @@
 </template>
 
 <script>
-import AppNavBar from "./AppNavBAr.vue";
-import AppFooter from "./AppFooter.vue";
-import AppNavigations from "./AppNavigations.vue";
+import Header from "@/components/Layouts/partial/AppHeader.vue";
+import AppFooter from "@/components/Layouts/partial/AppFooter.vue";
+import AppNavigations from "@/components/Layouts/partial/AppNavigations.vue";
 export default {
   name: "AppLayout",
   data() {
-    return {
-      drawer: true,
-    };
+    return {};
   },
   components: {
-    AppNavBar,
+    Header,
     AppNavigations,
     AppFooter,
   },
