@@ -9,11 +9,7 @@
           </div>
         </v-col>
         <v-col>
-<<<<<<< HEAD
           <div class="features_Guarantee">
-=======
-          <div class="features_Guarante">
->>>>>>> 7deffe2b06a735b2b144c6c95f42f30f52664115
             <GuaranteeIcon />
             <span>Lowest Price Guarantee</span>
           </div>
@@ -44,7 +40,7 @@ export default {
 <style lang="scss">
 .features {
   font-size: 25px;
-<<<<<<< HEAD
+
   & div {
     display: flex !important;
     justify-content: center !important;
@@ -58,19 +54,12 @@ export default {
 .features_shipping {
   position: relative;
 }
-.features_Guarantee::after,
-=======
-  span {
-    vertical-align: top;
-    margin-left: 10px;
-  }
-}
+
 .features_Guarante,
 .features_shipping {
   position: relative;
 }
 .features_Guarante::after,
->>>>>>> 7deffe2b06a735b2b144c6c95f42f30f52664115
 .features_shipping::after {
   content: "";
   background: #dadada;
@@ -78,11 +67,7 @@ export default {
   height: 70%;
   position: absolute;
   top: 50%;
-<<<<<<< HEAD
   right: -140px;
-=======
-  right: 0;
->>>>>>> 7deffe2b06a735b2b144c6c95f42f30f52664115
   transform: translateY(-50%);
 }
 </style>
