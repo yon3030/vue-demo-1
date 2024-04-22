@@ -74,6 +74,7 @@ export default {
   padding-top: 40px;
   &_box {
     overflow: hidden;
+    border-radius: 10px;
     img {
       width: 100%;
       transition: 0.7s all ease-in-out;
