@@ -9,7 +9,7 @@
           </div>
         </v-col>
         <v-col>
-          <div class="features_Guarante">
+          <div class="features_Guarantee">
             <GuaranteeIcon />
             <span>Lowest Price Guarantee</span>
           </div>
@@ -40,16 +40,20 @@ export default {
 <style lang="scss">
 .features {
   font-size: 25px;
-  span {
-    vertical-align: top;
-    margin-left: 10px;
+  & div {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    span {
+      margin-left: 20px;
+    }
   }
 }
-.features_Guarante,
+.features_Guarantee,
 .features_shipping {
   position: relative;
 }
-.features_Guarante::after,
+.features_Guarantee::after,
 .features_shipping::after {
   content: "";
   background: #dadada;
@@ -57,7 +61,7 @@ export default {
   height: 70%;
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -140px;
   transform: translateY(-50%);
 }
 </style>

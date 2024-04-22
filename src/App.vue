@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/fonts/fonts.css";
+// @import "@/fonts/fonts.css";
 #app {
   font-family: DM Sans, sans-serif;
   -webkit-font-smoothing: antialiased;
